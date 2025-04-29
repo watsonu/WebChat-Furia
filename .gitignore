@@ -1,15 +1,11 @@
-# Raiz do projeto (afeta frontend e backend)
+# Dependências
 node_modules/
-.DS_Store
-.env
-*.log
 dist/
-.idea/
 
-# Frontend específico (Vite/React)
-frontend/.env
-frontend/dist/
+# Ambiente
+.env
+.env.local
 
-# Backend específico (Node.js)
-backend/.env
-backend/uploads/
+# Sistema
+.DS_Store
+*.log
