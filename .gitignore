@@ -1,0 +1,15 @@
+# Raiz do projeto (afeta frontend e backend)
+node_modules/
+.DS_Store
+.env
+*.log
+dist/
+.idea/
+
+# Frontend específico (Vite/React)
+frontend/.env
+frontend/dist/
+
+# Backend específico (Node.js)
+backend/.env
+backend/uploads/
